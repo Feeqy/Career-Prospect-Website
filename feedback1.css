@@ -1,0 +1,130 @@
+/*Navigation bar*/
+*{
+     margin:0;
+    padding:0;
+    font-family:verdana;
+    }
+    nav {
+    opacity: 0.7;
+    }
+    
+    /*<<<<<<<<<<<<<<<<<Footer>>>>>>>>>>>>>>>>>*/
+    
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+    .container {
+    margin: auto;
+    }
+    
+    .footer{
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    opacity: 0.7;
+    }
+    .footer ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+    }
+    .footer h4 {
+    font-size: 18px;
+    color: #000000;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    }
+    
+    .footer ul li:not(:last-child) {
+    margin-bottom: 10px;
+    }
+    
+    .footer ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+    }
+    
+    .footer .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    }
+    
+    .footer .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+    }
+    .footer-contacts h4 {
+    font-size: 18px;
+    color: #00000077;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    }
+    
+    .footer-contacts p {
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 300;
+    color: #ffffff;
+    display: block;
+    
+    }
+    .footer-contacts a {
+    text-decoration: none;
+    color: #bbbbbb;
+    }
+    .footer-contacts a:hover {
+    color: #ffffff;
+    transition: all 0.3s ease;
+    padding-left: 8px;
+    }
+    
+    .footer-copy {
+    color: white;
+    font-size: 12px;
+    padding-top: 4px;
+    }
+    @media(max-width: 767px){
+    .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+    }
+    }
+    @media(max-width: 574px) {
+    .footer-col{
+    width: 100%;
+    }
+    }
+    
+    header {
+    animation: transitionIn 0.75s;
+    }
+    
+    @keyframes transitionIn {
+    from {
+    opacity: 0;
+    transform:rotateX(-10deg);
+    }
+    
+    to {
+    opacity: 1;
+    transform: rotateX(0);
+    }
+    
+    } 
+    
+    
